@@ -1,0 +1,144 @@
+body{
+    background-color: black;
+    color: seashell;
+    font-family: Helvetica;
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    opacity:0.9;
+    line-height: 16px;
+}
+
+
+nav{
+    display:flex;
+    font-size: 22px;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 10px;
+    margin-right:10px;
+}
+
+header{
+    position: fixed;
+    width:100%;
+    border-bottom: 1px solid seashell;
+    position: fixed;
+    z-index:2;
+    background-color: black;
+}
+
+.logo{
+    height: 50px;
+}
+
+
+nav li{
+    list-style: none;
+    text-decoration: underline;
+    display: inline;
+    margin-left:20px;
+}
+
+a{
+    color: inherit;
+}
+
+.jumbotron {
+    background-image: url("./images/img-mission-background.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 700px;
+    width: 96%;
+    margin: 0 auto;
+    position: relative;
+    top: 70px;
+
+}
+
+.mission{
+    width: 100%;
+    background-color: black;
+    position: absolute;
+    top: 35%;
+    text-align: center;
+}
+
+
+
+.teaOfMonth{
+    width: 80%;
+    margin: 50px auto;
+
+}
+
+.headcontainer{
+    text-align: center;
+    line-height: 2em;
+    padding: 1.5rem;
+}
+
+.headcontainer h2{
+    margin-bottom:10px;
+}
+
+.bodycontainer{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    gap: 2%;
+
+}
+
+.teapic{
+    height:250px;
+    line-height: 10px;
+    margin-bottom:10px;
+}
+
+
+.teapic img{
+    height: 200px;
+    width: 300px;
+}
+
+.locations{
+    background-image:url("./images/img-locations-background.jpg");
+    background-position: center;
+    background-size:cover;
+    height:500px;
+    width:96%;
+    margin:5px auto;
+    text-align: center;
+    position: relative;
+    padding-top: 3%;
+}
+
+
+.locationcontainer{
+    display: flex;
+    justify-content: center;
+    gap:40px;
+    flex-wrap:wrap;
+}
+
+
+.location {
+    opacity: 1;
+    min-width: 300px;
+    text-align: center;
+    background-color:black;
+    line-height: 2rem;
+
+}
+
+.contact{
+    text-align: center;
+    height:200px;
+    line-height:2rem;
+}
+
+.copyright{
+    margin-left: 20px;
+}
